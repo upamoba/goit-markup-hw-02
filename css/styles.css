@@ -1,60 +1,59 @@
-<style>{
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    color: #333;
-}
 
-header {
-    background: #f4f4f4;
-    padding: 20px;
-}
+ body {
+     font-family: Arial, sans-serif;
+     line-height: 1.6;
+     margin: 0;
+     padding: 0;
+     color: #333;
+ }
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+ header {
+     background: #f4f4f4;
+     padding: 20px;
+ }
 
-nav a {
-    text-decoration: none;
-    color: #333;
-    font-size: 1.5em;
-}
+ nav {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
 
-ul {
-    list-style: none;
-    display: flex;
-    gap: 15px;
-    margin: 0;
-    padding: 0;
-}
+ nav a {
+     text-decoration: none;
+     color: #333;
+     font-size: 1.5em;
+ }
 
-ul li a {
-    text-decoration: none;
-    color: #333;
-    font-size: 1em;
-}
+ ul {
+     list-style: none;
+     display: flex;
+     gap: 15px;
+     margin: 0;
+     padding: 0;
+ }
 
-address {
-    margin-top: 10px;
-    font-style: normal;
-}
+ ul li a {
+     text-decoration: none;
+     color: #333;
+     font-size: 1em;
+ }
 
-address ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
+ address {
+     margin-top: 10px;
+     font-style: normal;
+ }
 
-address ul li {
-    margin-bottom: 5px;
-}
+ address ul {
+     list-style: none;
+     padding: 0;
+     margin: 0;
+ }
 
-address ul li a {
-    text-decoration: none;
-    color: #333;
-}
+ address ul li {
+     margin-bottom: 5px;
+ }
 
-</style>
+ address ul li a {
+     text-decoration: none;
+     color: #333;
+ }
