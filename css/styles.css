@@ -1,5 +1,5 @@
 
- body {
+ .body {
      font-family: Arial, sans-serif;
      line-height: 1.6;
      margin: 0;
@@ -7,24 +7,24 @@
      color: #333;
  }
 
- header {
+ .header {
      background: #f4f4f4;
      padding: 20px;
  }
 
- nav {
+ .nav {
      display: flex;
      justify-content: space-between;
      align-items: center;
  }
 
- nav a {
+ .nav a {
      text-decoration: none;
      color: #333;
      font-size: 1.5em;
  }
 
- ul {
+ .ul {
      list-style: none;
      display: flex;
      gap: 15px;
@@ -32,28 +32,28 @@
      padding: 0;
  }
 
- ul li a {
+ .ul li a {
      text-decoration: none;
      color: #333;
      font-size: 1em;
  }
 
- address {
+ .address {
      margin-top: 10px;
      font-style: normal;
  }
 
- address ul {
+ .address ul {
      list-style: none;
      padding: 0;
      margin: 0;
  }
 
- address ul li {
+ .address ul li {
      margin-bottom: 5px;
  }
 
- address ul li a {
+ .address ul li a {
      text-decoration: none;
      color: #333;
  }
