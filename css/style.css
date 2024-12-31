@@ -1,3 +1,23 @@
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+a,
+address,
+nav,
+section,
+footer,
+header {
+
+
+    margin: 0;
+    padding: 0;
+
+    box box-sizing: border-box;
+}
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -87,3 +107,6 @@ footer {
     text-align: center;
     padding: 20px 0;
 }
+ h1{
+   
+ }
