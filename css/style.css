@@ -26,9 +26,7 @@ body {
       text-decoration: none;
       color: inherit;
     }
- ul {
-            list-style: none;
-        }
+
 header {
     display: flex;
         justify-content: space-between;
