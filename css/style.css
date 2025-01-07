@@ -108,6 +108,18 @@ footer {
     text-align: center;
     padding: 20px 0;
 }
- h1{
-   
- }
+.portfolio {
+
+    background-color: #f8f9fa;
+
+    padding: 50px 20px;
+
+    text-align: center;
+}
+.portfolio h2 {
+    font-size: 32px;
+
+    margin-bottom: 30px;
+
+    color: #333;
+}
