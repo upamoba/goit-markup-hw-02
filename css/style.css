@@ -16,7 +16,7 @@ header {
     margin: 0;
     padding: 0;
 
-    box box-sizing: border-box;
+    box-sizing: border-box;
 }
 body {
     font-family:'Roboto', sans-serif;
@@ -95,7 +95,7 @@ button {
     border: none;
     padding: 10px 20px;
 
-    curs cursor: pointer;
+    cursor: pointer;
     font-size: 1em;
 }
 
