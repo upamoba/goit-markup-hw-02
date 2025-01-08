@@ -22,31 +22,14 @@
     font-weight: 700;
     font-style: normal;
 }
-body,
-h1,
-h2,
-h3,
-p,
-ul,
-li,
-a,
-address,
-nav,
-section,
-footer,
-header {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-main{
+.main{
         position: relative;
         width: 1440px;
         height: 3300px;
 }
 
-body {
+.body {
     font-family: 'Roboto', sans-serif;
         color: #434455;
         line-height: 1.5;
