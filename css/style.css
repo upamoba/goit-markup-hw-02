@@ -41,12 +41,14 @@
     }
 
 header {
-    display: flex;
-        justify-content: space-between;
-        align-items: center;
-        background: #FFFFFF;
-        border-bottom: 1px solid #E7E9FC;
-        padding: 20px 50px;
+/* Top Line */
+    position: absolute;
+    width: 1440px;
+    height: 72px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
 }
 
 nav {
