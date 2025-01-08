@@ -129,9 +129,13 @@ footer {
 
     background-color: #f8f9fa;
 
-    padding: 50px 20px;
-
-    text-align: center;
+        position: absolute;
+        width: 1128px;
+        height: 1000px;
+        left: 156px;
+        right: 156px;
+        top: 1868px;
+        bottom: 432px;
 }
 .portfolio h2 {
     font-size: 32px;
