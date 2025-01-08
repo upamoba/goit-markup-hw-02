@@ -113,7 +113,23 @@ main section {
         height: 120px;
         left: 472px;
         top: 260px;
+        /* Header 1 */
+            color: rgb(255, 255, 255);
+            font-family: Roboto;
+            font-size: 56px;
+            font-weight: 700;
+            line-height: 60px;
+            letter-spacing: 2%;
+            text-align: center;
 }
+.section-1{/* Section 1 */
+    position: absolute;
+    width: 1128px;
+    height: 104px;
+    left: 156px;
+    right: 156px;
+    top: 792px;
+    bottom: 2404px;}
 .team{
     
         position: absolute;
