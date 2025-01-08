@@ -21,7 +21,8 @@
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
-}body,
+}
+body,
 h1,
 h2,
 h3,
@@ -37,6 +38,12 @@ header {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+main{
+        position: relative;
+        width: 1440px;
+        height: 3300px;
 }
 
 body {
