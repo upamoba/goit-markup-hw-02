@@ -120,10 +120,12 @@ button:hover {
     background: #0056b3;
 }
 footer {
-    background: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
+    position: absolute;
+    width: 1440px;
+    height: 312px;
+    left: 0;
+    top: 2988px;
+    background: rgb(46, 47, 66);
 }
 .portfolio {
 
