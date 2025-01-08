@@ -98,7 +98,31 @@ address ul li a {
 main section {
     padding: 20px;
 }
-
+.dark-bg{
+        position: absolute;
+        width: 1440px;
+        height: 600px;
+        left: 0;
+        top: 72px;
+        background: rgb(46, 47, 66);
+}
+.effective-solutions{
+    /* Effective Solutions for Your Business */
+        position: absolute;
+        width: 496px;
+        height: 120px;
+        left: 472px;
+        top: 260px;
+}
+.team{
+    
+        position: absolute;
+        width: 1440px;
+        height: 732px;
+        left: 0;
+        top: 1016px;
+            background: rgb(244, 244, 253);
+}
 main h1,
 h2,
 h3 {
