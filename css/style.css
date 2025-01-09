@@ -24,20 +24,71 @@
 }
 header {
     /* Top Line */
-    position: absolute;
-    width: 1440px;
+    position:absolute;
+    width:100%;
     height: 72px;
     left: 0;
     right: 0;
     top: 0;
     bottom: 0;
     box-sizing: border-box;
-    /* CORNFLOWER */
-    border-bottom: 1px solid rgb(231, 233, 252);
-    /* WHITE */
-    background: rgb(255, 255, 255);
+background-color: #FFFFFF;
+    border-bottom: 1px solid #E7E9FC
+   
 }
+nav{
+    
+    width: 261px;
+    height: 24px;
+    top: 24px;
 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 40;
+    padding: 0px;}
+nav a {
+     text-decoration: none;
+     color: inherit;
+ }
+ nav ul {
+     list-style: none;
+     display: flex;
+     gap: 15px;
+     margin: 0;
+     padding: 0;
+ }
+
+nav ul li a {
+     text-decoration: none;
+     color: #333;
+     font-size: 1em;
+ }
+
+ address {
+     margin-top: 10px;
+     font-style: normal;
+ }
+
+ address ul {
+     list-style: none;
+     padding: 0;
+     margin: 0;
+ }
+
+ address ul li {
+     margin-bottom: 5px;
+ }
+
+ address ul li a {
+     text-decoration: none;
+     color: #333;
+ }
+
+ main section {
+     padding: 20px;
+ }
 main{
         position: relative;
         width: 1440px;
@@ -50,12 +101,9 @@ body {
         color: #434455;
         line-height: 1.5;
         background-color: #FFFFFF;
+        font-weight: 400;
 }
-  a {
-      text-decoration: none;
-      color: inherit;
-    }
-
+  
 
 .logo-top{/* Logo (Top Line) */
     position: relative;
@@ -69,45 +117,31 @@ body {
     padding: 0px;
 }
 
-nav {
-    /* Menu Nav (Top Line) */
-        position: relative;
-        width: 261px;
-        height: 24px;
-        /* Автолейаут */
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        align-items: flex-start;
-        gap: 40;
-        padding: 0px;
-}
-.menu-studio{/* Studio (Top Line) */
+.menu-studio {
     position: static;
     width: 48px;
     height: 24px;
-    /* Автолейаут */
+    top: 24px;
+    left: 347px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
     gap: 40;
     padding: 0px;
-
-
-    /* Inside Auto Layout */
     flex: none;
     order: 0;
     flex-grow: 0;
     margin: 0px 40px;
-/* Body Medium */
     color: rgb(46, 47, 66);
     font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 2%;
-    text-align: left;}
+    text-align: left;
+}
+    
 .menu-portfolio{/* Portfolio (Top Line) */
     position: static;
     width: 66px;
@@ -162,13 +196,13 @@ nav {
             letter-spacing: 2%;
             text-align: left;
     }
-.contacts-mail{/* info@devstudio.com (Top Line) */
+.contacts-mail{
     position: absolute;
     width: 153px;
     height: 24px;
     left: 940px;
     top: 24px;
-    /* Body */
+  
         color: rgb(67, 68, 85);
         font-family: Roboto;
         font-size: 16px;
@@ -192,43 +226,8 @@ nav {
     letter-spacing: 2%;
     text-align: left;}
 
-ul {
-    list-style: none;
-    display: flex;
-    gap: 15px;
-    margin: 0;
-    padding: 0;
-}
 
-ul li a {
-    text-decoration: none;
-    color: #333;
-    font-size: 1em;
-}
 
-address {
-    margin-top: 10px;
-    font-style: normal;
-}
-
-address ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-address ul li {
-    margin-bottom: 5px;
-}
-
-address ul li a {
-    text-decoration: none;
-    color: #333;
-}
-
-main section {
-    padding: 20px;
-}
 .dark-bg{
         position: absolute;
         width: 1440px;
@@ -239,13 +238,11 @@ main section {
 
 }
 .effective-solutions{
-    /* Effective Solutions for Your Business */
         position: absolute;
         width: 496px;
         height: 120px;
         left: 472px;
-        top: 260px;
-        /* Header 1 */
+        top: 120px;
             color: rgb(255, 255, 255);
             font-family: Roboto;
             font-size: 56px;
@@ -254,111 +251,125 @@ main section {
             letter-spacing: 2%;
             text-align: center;
 }
-.section-1{/* Section 1 */
+ [type='button'] {
+
+     position: relative;
+     width: 169px;
+     height: 56px;
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-start;
+     align-items: flex-start;
+     gap: 10;
+     padding: 16px 32px 16px 32px;
+    top: 356px;
+    left: 636px;
+
+    bottom: 188px;
+     border-radius: 4px;
+     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+
+     background: rgb(77, 90, 229);
+ }
+
+ button:hover {
+     background: #0056b3;
+
+ }
+.section-one{
     position: absolute;
     width: 1128px;
     height: 104px;
     left: 156px;
     right: 156px;
-    top: 792px;
-    bottom: 2404px;}
-.section-h{
-    position: static;
-    width: 264px;
-    height: 24px;
-    /* Автолейаут */
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    gap: 8;
-    padding: 0px;
-
-
-    /* Inside Auto Layout */
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 8px 0px;
-/* Header 3 */
-    color: rgb(46, 47, 66);
+    top: 700px;
+    bottom: 2404px;
+ }
+ .section-one h2{color: rgb(46, 47, 66);
     font-family: Roboto;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 24px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
     letter-spacing: 2%;
-    text-align: left;}
-
-    .section-p{
-        position: static;
-        width: 264px;
-        height: 72px;
-        /* Автолейаут */
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
-        gap: 8;
-        padding: 0px;
-    
-    
-        /* Inside Auto Layout */
-        flex: none;
-        order: 1;
-        flex-grow: 0;
-        margin: 8px 0px;
-        /* Body */
+    text-align: center;}
+    .section-one h3{
+        color: rgb(46, 47, 66);
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 2%;
+        text-align: left;}
+     .section-one p{
+            position: static;
+            width: 264px;
+            height: 72px;
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            gap: 8;
+            padding: 0px;
+            flex: none;
+            order: 1;
+            flex-grow: 0;
+            margin: 8px 0px;
         color: rgb(67, 68, 85);
         font-family: Roboto;
         font-size: 16px;
         font-weight: 400;
         line-height: 24px;
         letter-spacing: 2%;
-        text-align: left;
-       }
+        text-align: left;}
+   
 .team{
-    
-        position: absolute;
-        width: 1440px;
-        height: 732px;
-        left: 0;
-        top: 1016px;
-        background: rgb(244, 244, 253);
-}
 
- .button {
-
-    /* Button */
-        position: relative;
-        width: 169px;
-        height: 56px;
-        /* Автолейаут */
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        align-items: flex-start;
-        gap: 10;
-        padding: 16px 32px 16px 32px;
-
-            border-radius: 4px;
-            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-            /* IRIS */
-            background: rgb(77, 90, 229);
-}
-
-button:hover {
-    background: #0056b3;
-    
-}
-
-footer {
     position: absolute;
     width: 1440px;
-    height: 312px;
+    height: 732px;
     left: 0;
-    top: 2988px;
-    background: rgb(46, 47, 66);
+    right: 0;
+    top: 1016px;
+bottom: 1552px;
+        background: rgb(244, 244, 253);
 }
+.team h2{
+    color: rgb(46, 47, 66);
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 2%;
+    text-align: center;
+
+}
+.team img{
+    position: static;
+    width: 264px;
+    height: 260px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 32px 0px;}
+    .team h3{
+        color: rgb(46, 47, 66);
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 2%;
+        text-align: center;}
+.team p{
+    color: rgb(67, 68, 85);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 2%;
+    text-align: center;}
+
+
 .portfolio {
 
     background-color: #f8f9fa;
@@ -373,12 +384,12 @@ footer {
         top: 1868px;
         bottom: 432px;
 }
-.portfolio h2 {
-    font-size: 32px;
+.portfolio-our{
 
-    margin-bottom: 30px;
-
-    color: #333;
+    font-size: 20px;
+        font-weight: 500;
+        color: #2E2F42;
+        margin-bottom: 5px;
 }
 .portfolio-gallery {
 
@@ -387,13 +398,14 @@ footer {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
 }
-.portfolio-item {
+.portfolio-item{
 background-color: #FFFFFF;
     border-radius: 8px;
     text-align: center;
     padding: 20px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
+
 .portfolio-item img {
     width: 100%;
 
@@ -402,15 +414,37 @@ background-color: #FFFFFF;
     margin-bottom: 15px;
 }
 .portfolio-item h3 {
-font-size: 20px;
-    font-weight: 500;
-    color: #2E2F42;
-    margin-bottom: 5px;
+    /* Header 3 */
+        color: rgb(46, 47, 66);
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 2%;
+        text-align: left;
+
 }
 .portfolio-item p {
 
-
+/* Body */
+    color: rgb(67, 68, 85);
+    font-family: Roboto;
     font-size: 16px;
-
-    color: #434455;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 2%;
+    text-align: left;
+    
+}
+footer {
+    position: absolute;
+    width: 1440px;
+    height: 312px;
+    left: 0;
+    top: 2988px;
+    background: rgb(46, 47, 66);
+    background: #2E2F42;
+        color: #FFFFFF;
+        text-align: center;
+        padding: 32px;
 }
