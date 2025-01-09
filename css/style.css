@@ -49,14 +49,145 @@ header {
     right: 0;
     top: 0;
     bottom: 0;
+    box-sizing: border-box;
+        /* CORNFLOWER */
+        border-bottom: 1px solid rgb(231, 233, 252);
+        /* WHITE */
+        background: rgb(255, 255, 255);
 }
+.logo{/* Logo (Top Line) */
+    position: relative;
+    width: 115px;
+    height: 24px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;}
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    /* Menu Nav (Top Line) */
+        position: relative;
+        width: 261px;
+        height: 24px;
+        /* Автолейаут */
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 40;
+        padding: 0px;
 }
+.menu-studio{/* Studio (Top Line) */
+    position: static;
+    width: 48px;
+    height: 24px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 40;
+    padding: 0px;
 
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 40px;
+/* Body Medium */
+    color: rgb(46, 47, 66);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 2%;
+    text-align: left;}
+.menu-portfolio{/* Portfolio (Top Line) */
+    position: static;
+    width: 66px;
+    height: 24px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 40;
+    padding: 0px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 40px;
+/* Body Medium */
+    color: rgb(46, 47, 66);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 2%;
+    text-align: left;}
+    
+    .menu-contacts{/* Contacts (Top Line) */
+        position: static;
+        width: 67px;
+        height: 24px;
+        /* Автолейаут */
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 40;
+        padding: 0px;
+    
+    
+        /* Inside Auto Layout */
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+        margin: 0px 40px;
+        /* Body Medium */
+            color: rgb(46, 47, 66);
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 24px;
+            letter-spacing: 2%;
+            text-align: left;
+    }
+.contacts-mail{/* info@devstudio.com (Top Line) */
+    position: absolute;
+    width: 153px;
+    height: 24px;
+    left: 940px;
+    top: 24px;
+    /* Body */
+        color: rgb(67, 68, 85);
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 2%;
+        text-align: left;
+}
+.contacts-tell{/* +11 (000) 111-11-11 (Top Line) */
+    position: absolute;
+    width: 151px;
+    height: 24px;
+    left: 1133px;
+    top: 24px;
+/* Body */
+    color: rgb(67, 68, 85);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 2%;
+    text-align: left;}
 nav a {
     text-decoration: none;
     color: #333;
