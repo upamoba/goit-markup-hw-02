@@ -22,6 +22,21 @@
     font-weight: 700;
     font-style: normal;
 }
+header {
+    /* Top Line */
+    position: absolute;
+    width: 1440px;
+    height: 72px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    /* CORNFLOWER */
+    border-bottom: 1px solid rgb(231, 233, 252);
+    /* WHITE */
+    background: rgb(255, 255, 255);
+}
 
 main{
         position: relative;
@@ -41,21 +56,7 @@ body {
       color: inherit;
     }
 
-header {
-/* Top Line */
-    position: absolute;
-    width: 1440px;
-    height: 72px;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    box-sizing: border-box;
-        /* CORNFLOWER */
-        border-bottom: 1px solid rgb(231, 233, 252);
-        /* WHITE */
-        background: rgb(255, 255, 255);
-}
+
 .logo-top{/* Logo (Top Line) */
     position: relative;
     width: 115px;
@@ -65,7 +66,8 @@ header {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    padding: 0px;}
+    padding: 0px;
+}
 
 nav {
     /* Menu Nav (Top Line) */
@@ -190,7 +192,6 @@ nav {
     letter-spacing: 2%;
     text-align: left;}
 
-
 ul {
     list-style: none;
     display: flex;
@@ -261,7 +262,60 @@ main section {
     right: 156px;
     top: 792px;
     bottom: 2404px;}
+.section-h{
+    position: static;
+    width: 264px;
+    height: 24px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8;
+    padding: 0px;
 
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 8px 0px;
+/* Header 3 */
+    color: rgb(46, 47, 66);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 2%;
+    text-align: left;}
+
+    .section-p{
+        position: static;
+        width: 264px;
+        height: 72px;
+        /* Автолейаут */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 8;
+        padding: 0px;
+    
+    
+        /* Inside Auto Layout */
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 8px 0px;
+        /* Body */
+        color: rgb(67, 68, 85);
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 2%;
+        text-align: left;
+       }
 .team{
     
         position: absolute;
@@ -269,7 +323,7 @@ main section {
         height: 732px;
         left: 0;
         top: 1016px;
-            background: rgb(244, 244, 253);
+        background: rgb(244, 244, 253);
 }
 
  .button {
