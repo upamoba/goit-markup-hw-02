@@ -23,13 +23,14 @@
     font-style: normal;
 }
 
-.main{
+main{
         position: relative;
         width: 1440px;
         height: 3300px;
+        background: rgb(255, 255, 255);
 }
 
-.body {
+body {
     font-family: 'Roboto', sans-serif;
         color: #434455;
         line-height: 1.5;
@@ -188,11 +189,7 @@ nav {
     line-height: 24px;
     letter-spacing: 2%;
     text-align: left;}
-nav a {
-    text-decoration: none;
-    color: #333;
-    font-size: 1.5em;
-}
+
 
 ul {
     list-style: none;
@@ -264,6 +261,7 @@ main section {
     right: 156px;
     top: 792px;
     bottom: 2404px;}
+
 .team{
     
         position: absolute;
@@ -273,11 +271,7 @@ main section {
         top: 1016px;
             background: rgb(244, 244, 253);
 }
-main h1,
-h2,
-h3 {
-    color: #444;
-}
+
  .button {
 
     /* Button */
