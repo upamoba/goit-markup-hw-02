@@ -29,7 +29,7 @@ body {
         box-sizing: border-box;
     
     font-family: 'Roboto', sans-serif;
-    color: #2E2F42;
+    color: #434455;
     background-color: #FFFFFF;
 }
 main{width: 1440px;
@@ -295,11 +295,11 @@ footer {
 
 }
 
-.footer-logo .web {
+.footer-logo__web {
     color: #4D5AE5;
 }
 
-.footer-logo .studio {
+.footer-logo__studio {
     color: #FFFFFF;
 }
 
