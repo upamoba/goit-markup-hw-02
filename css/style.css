@@ -297,10 +297,14 @@ footer {
 
 .footer-logo__web {
     color: #4D5AE5;
+    font-size: 18px;
+        text-transform: uppercase;
 }
 
 .footer-logo__studio {
     color: #FFFFFF;
+    font-size: 18px;
+        text-transform: uppercase;
 }
 
 .footer p {
