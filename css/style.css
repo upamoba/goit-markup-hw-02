@@ -22,3 +22,10 @@
     font-weight: 700;
     font-style: normal;
 }
+main{
+    /* Main Page */
+        position: relative;
+        width: 1440px;
+        height: 3300px;
+        background: rgb(255, 255, 255);
+}
