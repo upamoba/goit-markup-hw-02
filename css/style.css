@@ -30,3 +30,37 @@ main{
 left: 370px;
         background: rgb(255, 255, 255);
 }
+.logo {
+    position: relative;
+    width: 115px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0; 
+}
+.logo .logo-web {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: #4D5AE5;
+    
+    margin-right: 4px;
+
+}
+
+
+.logo .logo-studio {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: #2E2F42;
+ 
+}
