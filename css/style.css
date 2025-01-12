@@ -26,7 +26,6 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
-    padding: 0;
     color: #434455;
     background-color: #FFFFFF;
 }
@@ -125,7 +124,7 @@ list-style: none;
 }
 
   .hero-button:hover {
-      background-color: #404bbf;
+background-color: #404bbf;
   }
 
   .hero-button:focus {
