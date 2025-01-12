@@ -147,7 +147,36 @@ position: relative;
     border-radius: 4px;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
         background: rgb(77, 90, 229);
+        font-family: 'Roboto', sans-serif;
+            font-weight: 500;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+            text-align: center;
+            cursor: pointer;
 }
 button:hover {
 background-color: #3C4ACF;
+}
+.sectione-one{
+    width: 1128px;
+        height: 104px;
+        top: 792px;
+        left: 156px;
+        gap: 0px;
+        opacity: 0px;
+}
+.sectione-one h3{
+    width: 264px;
+        height: 24px;
+        gap: 0px;
+        opacity: 0px;
+            font-family: Roboto;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 24px;
+            letter-spacing: 0.02em;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            background: #2E2F42;
 }
