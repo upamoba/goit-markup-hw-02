@@ -113,51 +113,56 @@ background: #FFFFFF;}
 .contact-link:focus {
     color: #404bbf;
 }
-    .dark-bg{
-        width: 1440px;
-            height: 600px;
-            top: 72px;
-            background-color: #2E2F42;
-        }
-        .effective-solutions{
-                position: absolute;
-                width: 496px;
-                height: 120px;
-                top: 260px;
-                left: 472px;
-                    color: rgb(255, 255, 255);
-                    font-family: Roboto;
-                    font-size: 56px;
-                    font-weight: 700;
-                    line-height: 60px;
-                    letter-spacing: 2%;
-                    text-align: center;
-        }
-[type='button'] {
-position: relative;
-    width: 169px;
-    height: 56px;
-    Top:428px; 
-    Left: 636px;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
-    gap: 10;
-    padding: 16px 32px 16px 32px;
+
+  .hero {
+      background-color: #2e2f42;
+      padding: 100px 20px;
+      text-align: center;
+      color: #ffffff;
+  }
+
+  .hero-content {
+      max-width: 800px;
+      margin: 0 auto;
+  }
+
+ 
+  .hero-title {
+      font-family: "Roboto", sans-serif;
+      font-weight: 700;
+      font-size: 56px;
+      line-height: 1.07;
+      letter-spacing: 0.02em;
+      color: #ffffff;
+      margin-bottom: 20px;
+  }
+
+ 
+.hero-button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    background-color: #4d5ae5;
+    border: none;
+    padding: 16px 32px;
     border-radius: 4px;
-        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-        background: rgb(77, 90, 229);
-        font-family: 'Roboto', sans-serif;
-            font-weight: 500;
-            font-size: 16px;
-            transition: background-color 0.3s ease;
-            text-align: center;
-            cursor: pointer;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
-button:hover {
-background-color: #3C4ACF;
-}
+
+  .hero-button:hover {
+      background-color: #404bbf;
+  }
+
+  .hero-button:focus {
+      outline: none;
+      background-color: #404bbf;
+  }
+
 .approach {
         display: flex;
         justify-content: space-between;
