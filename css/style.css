@@ -149,7 +149,6 @@ background-color: #404bbf;
 
 .approach-list {
     list-style: none;
-    flex-wrap: wrap;
 }
 
 .approach-item {
@@ -185,9 +184,6 @@ line-height: 1.11;
 text-transform: capitalize;
 }
  .team-list {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
             list-style: none;
             margin: 40px 0 0;
         }
@@ -231,7 +227,7 @@ background-color: #ffffff;
         margin-bottom: 40px;
         text-transform: capitalize;
     }
-.portfolio-gallery {display: flex;
+.portfolio-gallery {
     flex-direction: column;
 }
 .portfolio-item {
