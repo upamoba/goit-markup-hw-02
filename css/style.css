@@ -123,8 +123,8 @@ list-style: none;
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-.hero-button:hover,
-.hero-button:focus {
+.hero-button:focus,
+.hero-button:hover {
     background-color: #404bbf;
 }
 
