@@ -109,7 +109,7 @@ list-style: none;
   }
 
  
-.hero-button {
+.hero-btn {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -123,8 +123,8 @@ list-style: none;
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-.hero-button:focus,
-.hero-button:hover {
+.hero-btn:focus,
+.hero-btn:hover {
     background-color: #404bbf;
 }
 
