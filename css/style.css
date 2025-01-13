@@ -123,15 +123,9 @@ list-style: none;
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-  .hero-button:hover {
-background-color: #404bbf;
-  }
-
-  .hero-button:focus {
-      outline: none;
-      background-color: #404bbf;
-  }
-
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #404bbf;}
 .approach {
     background-color: #f4f4fd;
     text-align: center;
