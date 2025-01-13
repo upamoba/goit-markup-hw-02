@@ -122,11 +122,6 @@ list-style: none;
     text-transform: uppercase;
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
-.hero-btn:hover{
-    background-color: #404bbf;
-
-}
-.hero-btn:focus{background-color: #404bbf;}
 
 .hero-btn:hover,
 .hero-btn:focus {
