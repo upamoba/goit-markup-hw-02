@@ -126,6 +126,8 @@ list-style: none;
     background-color: #404bbf;
 
 }
+.hero-btn:focus{background-color: #404bbf;}
+
 .hero-btn:hover,
 .hero-btn:focus {
     background-color: #404bbf;
