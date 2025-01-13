@@ -31,9 +31,9 @@ body {
 }
 .header {
 background-color: #ffffff;
-    justify-content: space-between;}
+}
 .nav {
-    justify-content: space-between;
+
 }
 .logo-web {
 font-family: "Raleway", sans-serif;
@@ -125,7 +125,6 @@ list-style: none;
 
 .hero-button:hover,
 .hero-button:focus {
-    transform: scale(1.05);
     background-color: #404bbf;}
 
 .approach {
@@ -224,7 +223,7 @@ background-color: #ffffff;
         text-transform: capitalize;
     }
 .portfolio-gallery {
-    flex-direction: column;
+
 }
 .portfolio-item {
     background-color: #FFFFFF;
