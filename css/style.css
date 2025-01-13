@@ -257,6 +257,7 @@ footer {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+text-align: left;
 }
 
 .logo-text {
@@ -267,6 +268,7 @@ footer {
             letter-spacing: 0.03em;
             text-transform: uppercase;
     color: #f4f4fd;
+text-align: left;
 }
 
 .footer-text {
@@ -276,4 +278,5 @@ footer {
     letter-spacing: 0.02em;
     color:#F4F4FD;
     margin-top: 16px;
+    text-align: left;
 }
