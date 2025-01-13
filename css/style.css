@@ -123,15 +123,10 @@ list-style: none;
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-.hero-button:hover {
+.hero-button:hover,.hero-button:focus {
     background-color: #404bbf;
-    transform: scale(1.05);
 }
 
-.hero-button:focus {
-    background-color: #404bbf;
-    transform: scale(1.05);
-}
 .approach {
     background-color: #f4f4fd;
     text-align: center;
